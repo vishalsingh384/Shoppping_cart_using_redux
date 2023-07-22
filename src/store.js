@@ -5,4 +5,6 @@ export const store=configureStore({
     reducer:{
         cart:cartReducer,
     }
-})
+});
+
+console.log(store);
